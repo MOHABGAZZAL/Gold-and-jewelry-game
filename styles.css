@@ -1,0 +1,105 @@
+/* Reset the default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic setup */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Game container */
+#game-container {
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+#game-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff9900;
+}
+
+/* Question Section */
+#question-container {
+    margin-bottom: 20px;
+}
+
+#question-text {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Options buttons */
+.option-btn {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.option-btn:hover {
+    background-color: #45a049;
+}
+
+/* Level and Score */
+#level-container, #score-container {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Feedback container */
+#feedback-container {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+/* Styling for each level */
+.level-1 {
+    background-color: #ffecb3; /* Level 1 - Light gold */
+}
+
+.level-2 {
+    background-color: #fff2e6; /* Level 2 - Peach */
+}
+
+.level-3 {
+    background-color: #e1f5fe; /* Level 3 - Light blue */
+}
+
+.level-4 {
+    background-color: #e8f5e9; /* Level 4 - Light green */
+}
+
+.level-5 {
+    background-color: #f3e5f5; /* Level 5 - Lavender */
+}
+
+.level-up {
+    color: #2ecc71;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
